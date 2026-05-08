@@ -39,9 +39,6 @@ AI character generator that produces portraits and metadata using Google Gemini.
 ### [deepview.sh](https://github.com/armanghev/deepview.sh)
 Open-source, self-hostable developer dashboard that aggregates Vercel, DigitalOcean, AWS, Cloudflare, Stripe, and Supabase into a single unified view.
 
-### [Hivemind](https://github.com/armanghev/Hivemind)
-A shared MCP server that lets multiple AI coding agents (Cursor, Claude Code, etc.) sync context, coordinate tasks, and collaborate on the same codebase simultaneously.
-
 ### [bridge.dev](https://github.com/armanghev/bridge.dev)
 Open-source, self-hostable automation platform for visual workflows — no SaaS lock-in. Drag-and-drop canvas, AI suggestions, trigger orchestration, retries, alerts, and a connector SDK.
 
