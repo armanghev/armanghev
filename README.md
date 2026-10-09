@@ -30,7 +30,7 @@ I build developer tools, AI infrastructure, and full-stack products, from native
 
 ## What I'm building now
 
-### Envy
+### [Envy](https://github.com/armanghev/envy)
 A native macOS app and CLI (also on Linux) that moves `.env` files out of the repo and into the Keychain, then injects the right variables when you run `pnpm dev`, `python`, `cargo`, or `docker compose` in a project folder. Git-aware worktrees and branch variables, a pre-commit secret guard, Touch ID-protected production values, and reviewed sync with Vercel, GitHub Actions, Cloudflare, AWS, and more. *Swift · SwiftUI*
 
 ### [orchestrat.dev](https://orchestrat.dev)
