@@ -1,7 +1,7 @@
 # Arman Ghevondyan
 
 **Full-stack / product engineer** based in Los Angeles, CA  
-[armanghev.com](https://armanghev.com) · [armanghev747@gmail.com](mailto:armanghev747@gmail.com) · Available for hire
+[armanghev.com](https://armanghev.com) · [arman@armanghev.com](mailto:arman@armanghev.com) · Available for hire
 
 ---
 
@@ -11,33 +11,34 @@ I build developer tools, AI infrastructure, and full-stack products, from native
 
 ---
 
-## Stats
-
-[![Tokscale Stats](https://tokscale.ai/api/embed/armanghev/svg?compact=1)](https://tokscale.ai/u/armanghev)
-
----
-
 ## Tech Stack
 
 **Frontend:** React, Next.js, TypeScript, Tailwind CSS, Vite  
 **Backend:** Node.js, Fastify, Python, Django, FastAPI  
-**Native:** Swift, SwiftUI, Tauri  
+**Native:** Swift, SwiftUI, Expo, Tauri  
 **Databases:** PostgreSQL, Supabase, Neon, SQLite, Drizzle ORM  
 **Infrastructure:** Vercel, Railway, Cloudflare, AWS, DigitalOcean  
-**AI/Agents:** MCP, Claude Code, multi-provider LLM routing, agentic workflows
+**AI/Agents:** Claude API, MCP, Claude Code, multi-provider LLM routing, agentic workflows
 
 ---
 
 ## What I'm building now
 
-### [Envy](https://github.com/armanghev/envy)
+### [Onsen](https://getonsen.app)
+A study app for high school and college students on iPhone, iPad, and the web. Add your classes and test dates and it builds a countdown plan for each test, schedules flashcards and quizzes with spaced repetition (FSRS), and gives you a Socratic tutor that makes you think instead of handing you answers. The waitlist is open. *Expo · Next.js · Hono · Cloudflare Workers · Claude API*
+
+### [Envy](https://armanghev.com/projects/envy)
 A native macOS app and CLI (also on Linux) that moves `.env` files out of the repo and into the Keychain, then injects the right variables when you run `pnpm dev`, `python`, `cargo`, or `docker compose` in a project folder. Git-aware worktrees and branch variables, a pre-commit secret guard, Touch ID-protected production values, and reviewed sync with Vercel, GitHub Actions, Cloudflare, AWS, and more. *Swift · SwiftUI*
 
-### [orchestrat.dev](https://orchestrat.dev)
-A coordination plane for humans and coding agents, now in private alpha. Agents connect through the Orchestrat CLI and MCP bridge to claim, hand off, and complete shared tasks, while the developer follows the same state in a macOS and web dashboard. *Fastify · PostgreSQL · Tauri · React*
+---
 
-### [Noteably](https://noteably-ai.vercel.app/)
-An AI study workspace that turns videos, meetings, documents, and audio into transcripts, summaries, notes, flashcards, and quizzes. *Django · Next.js · Celery*
+## Shipped
+
+### [orchestrat](https://github.com/armanghev/orchestrat)
+A self-hosted coordination plane for one developer and several coding agents. Claude Code, Codex, Cursor, and Antigravity connect through a CLI and MCP bridge to claim tasks, hand off work, and share versioned docs and project chats, with branches that follow Git. Runs as one Docker image next to PostgreSQL. Source-available (ELv2), docs at [orchestrat.dev](https://orchestrat.dev). *Fastify · PostgreSQL · React · MCP · Docker*
+
+### [pai](https://github.com/armanghev/pai)
+A Telegram assistant running a Claude tool loop. It plans study time around a full-time job, watches Canvas for new work and grade changes, reads email and voice notes, and runs recurring jobs, with a hard daily spending cap. *Python · Claude API · Telegram · SQLite*
 
 ---
 
@@ -49,26 +50,5 @@ A local-first AI proxy that translates between OpenAI and Anthropic request form
 ### [mock-ai-api](https://github.com/armanghev/mock-ai-api)
 A deterministic local test double for the OpenAI and Anthropic APIs. Simulate streams, tool calls, rate limits, and provider failures without spending a token. Published on PyPI.
 
-### [nomi](https://github.com/armanghev/nomi)
-A CLI coding agent combining the best parts of Claude Code, Gemini CLI, and Codex.
-
 ### [chargen](https://github.com/armanghev/chargen)
 AI character generator that produces portraits and metadata with Google Gemini. Built with Next.js, Clerk, Neon, and Cloudflare R2.
-
-### [deepview.sh](https://github.com/armanghev/deepview.sh)
-Self-hostable developer dashboard that brings Vercel, DigitalOcean, AWS, Cloudflare, Stripe, and Supabase into one view.
-
-### [bridge.dev](https://github.com/armanghev/bridge.dev)
-Self-hostable automation platform for visual workflows: drag-and-drop canvas, AI suggestions, triggers, retries, alerts, and a connector SDK.
-
-### [cashly](https://github.com/armanghev/cashly)
-Personal finance platform across web and iOS with bank connectivity, automatic categorization, budgets, savings goals, and AI insights.
-
-<details>
-<summary>Earlier projects</summary>
-
-- [Requestor](https://github.com/armanghev/Requestor): a desktop API client built with Tauri, React, and TypeScript
-- [link-shortener](https://github.com/armanghev/link-shortener): the first app I vibe-coded, with a Django REST Framework backend and React frontend
-- [taskman](https://github.com/armanghev/taskman): a CLI task manager for developers, inspired by [claude-task-master](https://github.com/eyaltoledano/claude-task-master)
-
-</details>
